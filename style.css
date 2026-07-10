@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+    margin:0 ; 
+    padding: 0;
+}
+
+ .first_s{
+ max-width: 1320px;
+    margin: 0 auto;
+     
+   
+} 
+ 
+
+body {
+            font-family: 'Inter', sans-serif;
+            
+            background-color: #ffffff;
+            
+        }
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+   
+
+    align-items: center;
+      
+    padding:18px 8% ; 
+    margin-bottom:10px ; 
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:20px ; 
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size:16px ; 
+    padding: 12px 12px ; 
+    color: #575757;
+
+     }
+
+.bbtn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+     height: 56px;
+     width: 192px;
+     border: none;
+     border-radius: 10px;
+     font-weight: bold;
+     font-size: 16px;
+    
+}
+
+header{
+      background: /* linear-gradient(
+       rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.1),
+         
+      rgba(0, 0, 0, 2)
+        
+    ), */
+    /* linear-gradient(to top right, rgba(0,0,0,0.75), rgba(0,0,0,0.45), rgba(0,0,0,0))
+    ,  */
+
+     /* linear-gradient(to top right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.4) 60%, transparent 100%)  */
+
+    linear-gradient(
+    35deg,
+    rgba(0, 0, 0, 0.88) 8%,
+    rgba(0, 0, 0, 0.68) 38%,
+    rgba(0, 0, 0, 0.32) 68%,
+    rgba(0, 0, 0, 0.08) 88%,
+    transparent 100%
+)
+   
+    , url("./assets/banner.jpg"); 
+    height: 90vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+
+    display: grid;
+     justify-content: center;
+     align-items: center;
+    
+   margin-bottom: 20px;
+
+     
+     
+}
+ .take{
+      color:#ffffff ; 
+      text-align: center;
+      display: grid;
+       gap:300px ; 
+       justify-items: center;
+ }
+  
+
+  
+.take h1{
+    font-size: 80px; 
+    margin-bottom: 10px;
+
+
+}  
+.take p{
+    font-size: 22px; 
+}
+
+.take button{
+    font-size: 24px;
+}
+
+section{
+       margin-top: 40px;
+    padding: 0 20px 40px;
+   
+}
+.speakers{
+
+     
+    display: grid;
+    
+    grid-template-columns: repeat(2 , 1fr);
+     grid-template-rows: repeat(2, auto);
+    gap:20px ; 
+    
+}
+.speaker img {
+    border: none;
+    border-radius: 0;
+    max-width: 100%;
+    max-width: auto;
+    display:block ; 
+}
+ .speaker {
+    border: 2px dotted #E5E7EB;  
+    border-radius: 12px;        
+    padding: 20px;
+    
+     
+}
+section h1{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold; 
+}
+.speaker span{
+    color:#2563EB ; 
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+ 
+
+.sec2 {
+
+    text-align: center;
+     
+}
+
+.sec2 hr {
+    
+    border: none;
+    border-top:1px solid #D1D5DB ;
+    margin: 16px 0px;
+}
+.special hr{
+   border: none;
+    border-top: 1px solid #ffffff1a;
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:30px ; 
+     
+    
+     
+
+}
+
+
+ .pricing div{
+    text-align: left; 
+    align-items: left; 
+    padding:32px 32px; 
+    border-radius: 12px ;
+    border:1px solid #E5E7EB ; 
+    background-color: #E5E7EB; 
+    color:#333333 ; 
+    width:370.66px ; 
+    height: 444px;
+}
+
+ .pricing ul li::marker {
+    color: #2563EB;
+     
+}
+.pricing ul{
+    font-size: 14px; 
+}
+.pricing ul li{
+    padding:5px ; 
+}
+.pricing p{
+    font-size:13px ; 
+}
+.pricing h1 {
+    text-align: left;
+    font-size: 44px;
+    font-weight: bold;
+}
+.ss{
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.btnn2{
+    margin-top: 20px ; ;
+    background-color:#FFFFFF;
+    border-radius: 8px;
+    border-color: #2563EB;
+    color: #2563EB;
+     height: 45px;
+     width: 304.66px;
+     
+     
+    
+     font-size: 16px;
+    
+}
+.btnn1{
+    border:none; 
+    background-color: #2563EB;
+    color:#FFFFFF
+
+}
+.btnn3{
+    border-color: #0D1B2A;
+
+    color: #0d1b2a;
+    font-weight:bold ; 
+    background-color: #FFFFFF;
+}
+
+.pricing .special{
+
+    background-color:#0D1B2A ;
+    color:#FFFFFF
+}
+.pricing .special h4{
+    color:#93C5FD; 
+    font-size:13px ; 
+    font-weight: 600;
+     
+}
+
+  /*==============================
+      Workshop Section
+==============================*/
+
+.workshop_container{
+    width:1479px;
+    margin:120px auto;
+
+    padding:60px;
+
+    background:#EDE9FE;
+    border:2px solid #7C3AED;
+    border-radius:24px;
+
+    box-sizing:border-box;
+}
+
+.workshop_container h1{
+    text-align:center;
+    font-size:52px;
+    font-weight:700;
+    color:#4C1D95;
+
+    margin-bottom:18px;
+}
+
+.workshop_subtitle{
+
+    width:720px;
+
+    margin:0 auto 45px;
+
+    text-align:center;
+
+    font-size:18px;
+    line-height:30px;
+
+    color:#6B7280;
+}
+
+/*==============================
+      Table Container
+==============================*/
+
+.workshop_table_container{
+
+    width:100%;
+
+    background:#FFFFFF;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/*==============================
+          Table
+==============================*/
+
+.workshop_table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    font-size:17px;
+
+}
+
+/* Caption */
+
+.workshop_table caption{
+
+    caption-side:top;
+
+    padding:20px;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#7C3AED;
+
+}
+
+/* Header */
+
+.workshop_table thead{
+
+    background:#7C3AED;
+
+    color:#FFFFFF;
+
+}
+
+.workshop_table thead th{
+
+    padding:18px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+/* Cells */
+
+.workshop_table th,
+.workshop_table td{
+
+    border:1px solid #DDD6FE;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+/* Alternate Row Color */
+
+.workshop_table tbody tr:nth-child(odd){
+
+    background:#FFFFFF;
+
+}
+
+.workshop_table tbody tr:nth-child(even){
+
+    background:#F5F3FF;
+
+}
+
+/* Hover */
+
+.workshop_table tbody tr:hover{
+
+    background:#DDD6FE;
+
+    transition:.3s;
+
+}
+
+/* Footer */
+
+.workshop_table tfoot td{
+
+    text-align:center;
+
+    background:#DDD6FE;
+
+    color:#5B21B6;
+
+    font-weight:600;
+
+}
+
+footer{
+    background-color: #0D1B2A;
+    color: #FFFFFF66;
+    
+    height: 145px; 
+    width: auto ;
+    padding: 60px 56px 32px;
+}
+.last{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+   /* margin:10px auto ;*/ 
+    padding:18px 5%; 
+    font-size: 16px; 
+}
+.last ul{
+    display: flex; 
+    justify-content: space-between;
+    gap:15px ; 
+    list-style: none; 
+    
+}
