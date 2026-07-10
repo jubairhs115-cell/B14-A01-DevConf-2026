@@ -1,9 +1,13 @@
+/* Universal Selector */
+
 *{
     box-sizing: border-box;
     margin:0 ; 
     padding: 0;
 }
 
+
+/* this is  Navbar Section */
  .first_s{
  max-width: 1320px;
     margin: 0 auto;
@@ -56,11 +60,19 @@ nav ul li a{
      height: 56px;
      width: 192px;
      border: none;
-     border-radius: 10px;
+     border-radius: 12px;
      font-weight: bold;
      font-size: 16px;
     
 }
+.bbtn1{
+    padding: 12px;
+    height: 74px;
+    width: 282px; 
+    border-radius: 10px;
+}
+
+/*  Banner (Hero) Section */
 
 header{
       background: /* linear-gradient(
@@ -126,6 +138,7 @@ header{
     font-size: 24px;
 }
 
+/* Meet the Speakers Section */
 section{
        margin-top: 40px;
     padding: 0 20px 40px;
@@ -164,11 +177,11 @@ section h1{
 .speaker span{
     color:#2563EB ; 
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
- 
+ /* Secure Your Spot (Pricing) Section */
 
 .sec2 {
 
@@ -241,10 +254,12 @@ section h1{
     color: #2563EB;
      height: 45px;
      width: 304.66px;
+     padding: 11px;
      
      
     
      font-size: 16px;
+      font-weight: 600;
     
 }
 .btnn1{
@@ -257,7 +272,7 @@ section h1{
     border-color: #0D1B2A;
 
     color: #0d1b2a;
-    font-weight:bold ; 
+    font-weight:600 ; 
     background-color: #FFFFFF;
 }
 
@@ -273,9 +288,7 @@ section h1{
      
 }
 
-  /*==============================
-      Workshop Section
-==============================*/
+  /*  PLACEHOLDER SECTION — AI CHALLENGE*/
 
 .workshop_container{
     width:1479px;
@@ -313,9 +326,9 @@ section h1{
     color:#6B7280;
 }
 
-/*==============================
+/* 
       Table Container
-==============================*/
+*/
 
 .workshop_table_container{
 
@@ -331,9 +344,9 @@ section h1{
 
 }
 
-/*==============================
+/* 
           Table
-==============================*/
+ */
 
 .workshop_table{
 
@@ -432,6 +445,7 @@ section h1{
 
 }
 
+/* Footer Section */
 footer{
     background-color: #0D1B2A;
     color: #FFFFFF66;
